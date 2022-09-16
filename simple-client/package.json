@@ -1,0 +1,15 @@
+{
+  "name": "simple-client",
+  "version": "1.0.0",
+  "description": "A simple client that uses a local Hashgraph instance",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Bob Reselman <reselbob@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@hashgraph/sdk": "^2.18.1",
+    "dotenv": "^16.0.2"
+  }
+}
