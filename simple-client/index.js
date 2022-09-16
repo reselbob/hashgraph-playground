@@ -28,6 +28,7 @@ async function main(){
     console.log("Got receipt");
     const newAccountId = receipt.accountId;
 
+    console.log("Here is the receipt:\n");
     console.log(JSON.stringify({newAccountId}))
 }
 
